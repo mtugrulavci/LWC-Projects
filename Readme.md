@@ -1,1 +1,1 @@
-Salesforce lightnin Web Components Examples
+Salesforce lightning Web Components Examples
