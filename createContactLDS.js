@@ -18,7 +18,7 @@ createContact(){
     const fields = {"LastName":this.contactName,"Phone":this.contactPhone, "Email":this.contactEmail};
     const  recordInput = {apiName: "Contact", fields};
     createRecord(recordInput).then(response=>{
-        console.log('Contact has been successfully created!')
+        console.log('Contact has been successfully created!'+ response.id)
     }).catch(error=>{
         console.log('error in the contact:', error.body.message);
     });
